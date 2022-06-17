@@ -23,7 +23,7 @@ const SignIn = ({ userName, setDisplayNav, setUserName }) => {
           setDisplayNav((prevDisplayNav) => {
             return (prevDisplayNav = true);
           });
-          nav("/menu");
+          nav("/burger_menu/menu");
         }}
       >
         menu
