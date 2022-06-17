@@ -21,18 +21,18 @@ function App() {
   const [itemsInCart, setItemsInCarts] = useState([]);
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/burger_menu">
         {displayNav && <NavBar setUserName = {setUserName}  setDisplayNav ={setDisplayNav} setItemsInCarts ={setItemsInCarts} />}
         <Routes>
           <Route
-            path="/burger_menu/"
+            path="/"
             element={<SignIn userName={userName} setUserName={setUserName} setDisplayNav={setDisplayNav} />}
           ></Route>
           <Route
-            path="/burger_menu/menu"
+            path="/menu"
             element={<MenuPage setItemsInCarts={setItemsInCarts} prodcuts={prodcuts} userName={userName} />}
           ></Route>
-          <Route path="/burger_menu/cart" element={<Cart itemsInCart={itemsInCart} />}></Route>
+          <Route path="/cart" element={<Cart itemsInCart={itemsInCart} />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
