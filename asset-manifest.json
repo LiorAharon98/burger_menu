@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/burger_menu/static/css/main.a5958fa2.css",
-    "main.js": "/burger_menu/static/js/main.408742c3.js",
+    "main.js": "/burger_menu/static/js/main.fac91cc9.js",
     "static/js/787.635aedaa.chunk.js": "/burger_menu/static/js/787.635aedaa.chunk.js",
     "static/media/franch fries.jpg": "/burger_menu/static/media/franch fries.e079af824651f3f8ca77.jpg",
     "static/media/hamburger.png": "/burger_menu/static/media/hamburger.c166d046900d70486c3b.png",
@@ -12,11 +12,11 @@
     "static/media/oreo-cookies.webp": "/burger_menu/static/media/oreo-cookies.8068deb446a77840feef.webp",
     "index.html": "/burger_menu/index.html",
     "main.a5958fa2.css.map": "/burger_menu/static/css/main.a5958fa2.css.map",
-    "main.408742c3.js.map": "/burger_menu/static/js/main.408742c3.js.map",
+    "main.fac91cc9.js.map": "/burger_menu/static/js/main.fac91cc9.js.map",
     "787.635aedaa.chunk.js.map": "/burger_menu/static/js/787.635aedaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5958fa2.css",
-    "static/js/main.408742c3.js"
+    "static/js/main.fac91cc9.js"
   ]
 }
