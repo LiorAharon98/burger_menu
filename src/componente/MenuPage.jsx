@@ -19,7 +19,7 @@ const MenuPage = ({ setItemsInCarts,prodcuts, userName }) => {
             product={val.product}
             price={val.price}
             info={val.info}
-            img={val.img}
+            img={Pictures[index]}
           />
         );
       })}
