@@ -25,14 +25,14 @@ function App() {
         {displayNav && <NavBar setUserName = {setUserName}  setDisplayNav ={setDisplayNav} setItemsInCarts ={setItemsInCarts} />}
         <Routes>
           <Route
-            path="/"
+            path="/burger_menu/"
             element={<SignIn userName={userName} setUserName={setUserName} setDisplayNav={setDisplayNav} />}
           ></Route>
           <Route
-            path="/menu"
+            path="/burger_menu/menu"
             element={<MenuPage setItemsInCarts={setItemsInCarts} prodcuts={prodcuts} userName={userName} />}
           ></Route>
-          <Route path="/cart" element={<Cart itemsInCart={itemsInCart} />}></Route>
+          <Route path="/burger_menu/cart" element={<Cart itemsInCart={itemsInCart} />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
