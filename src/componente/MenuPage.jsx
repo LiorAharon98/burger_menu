@@ -24,7 +24,7 @@ const MenuPage = ({ setItemsInCarts,prodcuts, userName }) => {
       })}
       <button
         onClick={() => {
-          countItems > 1 ? nav("/cart") : alert("empty");
+          countItems > 1 ? nav("/burger_menu/cart") : alert("empty");
         }}
         id="shoppingCartBtn"
       >
