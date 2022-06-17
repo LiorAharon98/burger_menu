@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function App() {
   const prodcuts = [
-    { price: 20, info: "the best ice crem in the city", img: "/menu-images/ice cream.jpg" },
+    { price: 20, info: "the best ice crem in the city", img: "/public/menu-images/ice cream.jpg"  },
     { price: 40, info: "best hamburger in the city 100% pure meat", img: "/menu-images/hamburger.png" },
     { price: 15, info: "french fries!", img: "/menu-images/franch fries.jpg" },
     { price: 50, info: "double cheesburger not a kosher", img: "/menu-images/hamburger.png" },

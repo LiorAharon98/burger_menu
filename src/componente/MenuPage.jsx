@@ -1,4 +1,5 @@
 import React from "react";
+import Pictures from "./Pictures";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import MenuMain from "./MenuMain";
