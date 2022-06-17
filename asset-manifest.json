@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nameOfReposetory/static/css/main.ffb90abd.css",
+    "main.js": "/nameOfReposetory/static/js/main.7c1860ce.js",
+    "static/js/787.635aedaa.chunk.js": "/nameOfReposetory/static/js/787.635aedaa.chunk.js",
+    "static/media/background.jpg": "/nameOfReposetory/static/media/background.57eae25f1e08afc477da.jpg",
+    "index.html": "/nameOfReposetory/index.html",
+    "main.ffb90abd.css.map": "/nameOfReposetory/static/css/main.ffb90abd.css.map",
+    "main.7c1860ce.js.map": "/nameOfReposetory/static/js/main.7c1860ce.js.map",
+    "787.635aedaa.chunk.js.map": "/nameOfReposetory/static/js/787.635aedaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffb90abd.css",
+    "static/js/main.7c1860ce.js"
+  ]
+}
